@@ -1,0 +1,13 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:insert="fragments.html :: headerfiles">
+    <title>Log in</title>
+</head>
+<body>
+
+
+<h2>Congratulations !!! you are connected success</h2>
+<form th:action="@{/logout}" method="post">
+<input type="submit" value="logout">
+</form>
+</body>
+</html>
